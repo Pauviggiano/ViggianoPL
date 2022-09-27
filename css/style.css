@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,500&display=swap');
 rules: font-family: 'Open Sans', sans-serif;
 */
-.mainIndex {
+main.mainIndex {
   min-height: 90vh;
   margin-bottom: 15px; }
 
@@ -276,10 +276,10 @@ iframe {
 body {
   position: relative;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 100%;
   color: #212121;
   justify-content: center;
-  width: 850px;
+  width: 800px;
   background-color: #EDE3E9; }
 
 main {

@@ -31,6 +31,7 @@ rules: font-family: 'Open Sans', sans-serif;
 @import './sections/footer';
 @import './sections/productos';
 @import './sections/accesorios';
+@import './sections/aboutus';
 @import './sections/contacto';
 
 
@@ -46,10 +47,10 @@ rules: font-family: 'Open Sans', sans-serif;
 body {
     position: relative;
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 100%;
     color: #212121;
     justify-content: center;
-    width: 850px;
+    width: 800px;
     background-color: $colorbg;
 } 
 
