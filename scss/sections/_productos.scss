@@ -1,4 +1,7 @@
 //Productos main
+main{
+    min-width: 100%;
+}
 
 h5.tiuloProductos{
     @include titulo;

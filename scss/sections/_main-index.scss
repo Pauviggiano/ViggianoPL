@@ -1,8 +1,7 @@
 
 
-main.mainIndex {
-  min-height: 90vh;
-  margin-bottom: 15px;
+main{
+  @include main;
 }
 
 //banner main-index
