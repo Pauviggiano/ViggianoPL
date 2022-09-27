@@ -3,7 +3,7 @@
 rules: font-family: 'Open Sans', sans-serif;
 */
 main {
-  min-height: 90vh;
+  min-height: 100vh;
   margin-bottom: 15px;
 }
 
@@ -264,7 +264,7 @@ div.container p {
 }
 
 main {
-  min-height: 90vh;
+  min-height: 100vh;
   margin-bottom: 15px;
 }
 
@@ -332,7 +332,7 @@ iframe {
 body {
   position: relative;
   margin: 0 auto;
-  min-height: 100%;
+  min-height: 100vh;
   color: #212121;
   justify-content: center;
   width: 700px;
@@ -340,7 +340,7 @@ body {
 }
 
 main {
-  min-height: 90vh;
+  min-height: 100vh;
   margin-bottom: 15px;
 }
 
@@ -376,6 +376,6 @@ main {
   }
   body {
     max-width: 700px;
-    height: 1000vh;
+    height: 100vh;
   }
 }/*# sourceMappingURL=main.css.map */
