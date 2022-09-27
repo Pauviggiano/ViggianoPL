@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,500&display=swap');
 rules: font-family: 'Open Sans', sans-serif;
 */
-main {
-  min-height: 100vh;
+main.mainIndex {
+  min-height: 90vh;
   margin-bottom: 15px;
 }
 
@@ -143,6 +143,8 @@ hr {
   flex-wrap: nowrap;
   justify-content: space-around;
   height: 130px;
+  position: fixed;
+  bottom: 0;
 }
 
 ul {
@@ -187,7 +189,8 @@ div.copy p {
 }
 
 main {
-  min-width: 100%;
+  min-height: 90vh;
+  margin-bottom: 15px;
 }
 
 h5.tiuloProductos {
@@ -263,8 +266,8 @@ div.container p {
   padding-bottom: 10px;
 }
 
-main {
-  min-height: 100vh;
+main.contacto {
+  min-height: 90vh;
   margin-bottom: 15px;
 }
 
@@ -335,13 +338,8 @@ body {
   min-height: 100vh;
   color: #212121;
   justify-content: center;
-  width: 700px;
+  width: 800px;
   background-color: #EDE3E9;
-}
-
-main {
-  min-height: 100vh;
-  margin-bottom: 15px;
 }
 
 @media (min-width: 992px) {
@@ -360,7 +358,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 700px;
+    max-width: 900px;
   }
   div.card {
     width: 256px;
@@ -374,8 +372,18 @@ main {
     max-width: 700px;
     margin: 10px 0 10px 0;
   }
+  main.mainIndex, main.contacto {
+    min-height: 90vh;
+  }
+}
+@media (max-width: 400px) {
+  main.mainIndex, main.contacto {
+    min-height: 90vh;
+    max-width: 320px;
+    margin: 0 auto;
+  }
   body {
-    max-width: 700px;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=main.css.map */

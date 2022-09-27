@@ -50,7 +50,7 @@ body {
     min-height: 100vh;
     color: #212121;
     justify-content: center;
-    width: 700px;
+    width: 800px;
     background-color: $colorbg;
 } 
 
@@ -73,7 +73,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        max-width: 700px;
+        max-width: 900px;
     }
     div.card{
         width: 256px;
@@ -98,8 +98,10 @@ body {
     main.mainIndex, main.contacto{
         min-height: 90vh;
         max-width: 320px;
+        margin: 0 auto;
     }
     body{
         min-height: 100vh;
+        margin: 0 auto;
     }
 }
