@@ -2,93 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,500&display=swap');
 rules: font-family: 'Open Sans', sans-serif;
 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  position: relative;
-  margin: 0 auto;
-  min-height: 100vh;
-  background-color: #EDE3E9;
-  color: #212121;
-  width: 950px;
-}
-
-img.logo {
-  width: 100px;
-}
-
-img.logo:hover {
-  transform: scale(1.1);
-}
-
-.header {
-  background-color: #EBC3DB;
-}
-
-a.nav-link {
-  color: black;
-}
-
-a.nav-link:hover {
-  color: #9F84BD;
-  transform: scale(1.1);
-}
-
-ul.navbar-nav.d-flex {
-  justify-content: end;
-  margin: 0;
-}
-
-div.loginCarrito {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 3px;
-}
-
-div.loginCarrito a {
-  padding: 5px;
-}
-
-div.loginCarrito a:hover {
-  transform: scale(1.1);
-}
-
-nav.navbar {
-  background-color: #EBC3DB;
-  display: flex;
-  justify-items: flex-end;
-  padding: 1px;
-}
-
-form.d-flex {
-  margin: 8px;
-  height: 30px;
-}
-
-div.container-fluid {
-  padding: 0;
-}
-
-hr {
-  margin: 0;
-}
-
 .mainIndex {
   min-height: 90vh;
   margin-bottom: 15px;
 }
 
-main {
-  min-height: 90vh;
-  margin-bottom: 15px;
-}
-
-.card {
+.cardIndex {
   --bs-card-spacer-y: 0rem;
   --bs-card-spacer-x: 1rem;
   --bs-card-title-spacer-y: 0.5rem;
@@ -116,21 +35,19 @@ main {
 
 .card-img-overlay {
   display: flex;
-  flex-direction: wrap;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  align-items: center;
   z-index: 1;
 }
 
-h1.card-title {
-  font-family: "Dancing Script", cursive;
-  font-weight: 700px;
-}
-
+h1.card-title,
 h2.card-text {
   font-family: "Dancing Script", cursive;
   font-weight: 700px;
+  text-align: center;
 }
 
 section.containerP {
@@ -140,7 +57,6 @@ section.containerP {
   margin: 10px;
   justify-items: center;
 }
-
 section.containerP p {
   max-width: 700px;
   text-align: center;
@@ -153,13 +69,71 @@ div.carousel-inner {
 }
 
 .carousel {
-  width: 350px;
   height: 350px;
+  width: 350px;
 }
 
 div.containerCarousel {
   display: flex;
   justify-content: center;
+}
+
+img.logo {
+  width: 100px;
+}
+img.logo:hover {
+  transform: scale(1.1);
+}
+
+.header {
+  background-color: #EBC3DB;
+}
+
+a.nav-link {
+  color: black;
+}
+a.nav-link:hover {
+  color: #9F84BD;
+  transform: scale(1.1);
+}
+
+ul.navbar-nav.d-flex {
+  justify-content: end;
+  margin: 0;
+}
+
+div.loginCarrito {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 3px;
+}
+div.loginCarrito a {
+  padding: 5px;
+}
+div.loginCarrito a:hover {
+  transform: scale(1.1);
+  color: #9F84BD;
+}
+
+nav.navbar {
+  background-color: #EBC3DB;
+  display: flex;
+  justify-items: flex-end;
+  padding: 1px;
+}
+
+form.d-flex {
+  margin: 8px;
+  height: 30px;
+}
+
+div.container-fluid {
+  padding: 0;
+}
+
+hr {
+  margin: 0;
 }
 
 .footer {
@@ -175,7 +149,6 @@ ul {
   list-style: none;
   padding: 0px 10px;
 }
-
 ul li {
   display: flex;
   flex-wrap: wrap;
@@ -189,7 +162,6 @@ li a {
   text-decoration: none;
   color: black;
 }
-
 li a:hover {
   color: #9F84BD;
 }
@@ -202,7 +174,6 @@ div.copy {
   margin: 0 auto;
   background-color: #EBC3DB;
 }
-
 div.copy p {
   height: 20px;
   font-size: 12px;
@@ -215,8 +186,14 @@ div.copy p {
   margin-bottom: 0;
 }
 
+h5.tiuloProductos {
+  padding: 10px 0 10px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
 div.card {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Dancing Script", cursive;
   font-size: 14px;
   color: black;
   background-color: whitesmoke;
@@ -231,7 +208,7 @@ a.btn {
   justify-content: center;
 }
 
-section.container.row {
+div.container.row {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -268,6 +245,24 @@ main.containerBio {
   flex-direction: column;
 }
 
+h5.tituloAccesorios {
+  padding: 10px 0 10px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div.container p {
+  font-family: "Open Sans", sans-serif;
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+main.contacto {
+  min-height: 1000px;
+}
+
 h5.contacto {
   display: flex;
   justify-content: center;
@@ -284,6 +279,7 @@ form.contacto {
   border-radius: 20px;
   margin: 10px;
   padding: 10px;
+  background-color: rgba(180, 151, 199, 0.1921568627);
 }
 
 .form-floating {
@@ -296,6 +292,8 @@ a.btn.contacto {
   justify-content: center;
   align-self: center;
   width: 200px;
+  border-style: groove;
+  border: #9F84BD solid;
 }
 
 .containerContacto {
@@ -320,6 +318,27 @@ iframe {
   margin-bottom: 30px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0 auto;
+  min-height: 100vh;
+  color: #212121;
+  justify-content: center;
+  width: 850px;
+  background-color: #EDE3E9;
+}
+
+main {
+  min-height: 90vh;
+  margin-bottom: 15px;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex;
@@ -328,5 +347,26 @@ iframe {
     justify-content: flex-end;
     margin: 0;
     padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  div.container.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+  }
+  div.card {
+    width: 256px;
+    height: 478px;
+  }
+  div.containerAccesorios.d-flex.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: 10px 0 10px 0;
   }
 }/*# sourceMappingURL=main.css.map */
