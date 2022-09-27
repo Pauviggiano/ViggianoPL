@@ -143,7 +143,6 @@ hr {
   flex-wrap: nowrap;
   justify-content: space-around;
   height: 130px;
-  position: fixed;
   bottom: 0;
 }
 
