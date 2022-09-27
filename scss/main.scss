@@ -54,12 +54,6 @@ body {
     background-color: $colorbg;
 } 
 
-main{
-   @include main();
-}
-
-
-
 //media querys
 
 @media (min-width: 992px){
@@ -95,10 +89,17 @@ main{
         margin: 10px 0 10px 0;
     }
 
-    body{
-        max-width: 500px;
-    }
     main.mainIndex, main.contacto{
         min-height: 90vh;
+    }
+}
+
+@media (max-width: 400px){
+    main.mainIndex, main.contacto{
+        min-height: 90vh;
+        max-width: 320px;
+    }
+    body{
+        min-height: 100vh;
     }
 }
