@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,500&display=swap');
 rules: font-family: 'Open Sans', sans-serif;
 */
+body {
+  min-height: 100%;
+}
+
 main {
   min-height: 90%;
   margin-bottom: 15px;
@@ -261,6 +265,10 @@ div.container p {
   text-align: center;
   margin: 0 auto;
   padding-bottom: 10px;
+}
+
+body {
+  min-height: 100%;
 }
 
 main {
