@@ -2,12 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,500&display=swap');
 rules: font-family: 'Open Sans', sans-serif;
 */
-body {
-  min-height: 100%;
-}
-
 main {
-  min-height: 90%;
+  min-height: 90vh;
   margin-bottom: 15px;
 }
 
@@ -267,12 +263,9 @@ div.container p {
   padding-bottom: 10px;
 }
 
-body {
-  min-height: 100%;
-}
-
 main {
-  min-height: 100%;
+  min-height: 90vh;
+  margin-bottom: 15px;
 }
 
 h5.contacto {
@@ -347,7 +340,7 @@ body {
 }
 
 main {
-  min-height: 90%;
+  min-height: 90vh;
   margin-bottom: 15px;
 }
 
@@ -382,7 +375,7 @@ main {
     margin: 10px 0 10px 0;
   }
   body {
-    max-width: 800px;
-    height: 900px;
+    max-width: 700px;
+    height: 900%;
   }
 }/*# sourceMappingURL=main.css.map */
