@@ -1,6 +1,6 @@
 //Productos main
 main{
-    min-width: 100%;
+    @include main;
 }
 
 h5.tiuloProductos{

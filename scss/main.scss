@@ -96,7 +96,9 @@ main{
     }
 
     body{
-        max-width: 700px;
-        height: 100vh;
+        max-width: 500px;
+    }
+    main.mainIndex, main.contacto{
+        min-height: 90vh;
     }
 }

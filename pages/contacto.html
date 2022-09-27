@@ -5,13 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Keywords -->
-    <meta name="keywords" content="contacto, atencion, cliente, ayuda, velas, aromas">
+    <meta
+      name="keywords"
+      content="contacto, atencion, cliente, ayuda, velas, aromas"
+    />
     <!-- descripcion -->
-    <meta name="description" content="Escribinos si tenes alguna consulta o para recibir novedades y promociones de nuestros productos">
+    <meta
+      name="description"
+      content="Escribinos si tenes alguna consulta o para recibir novedades y promociones de nuestros productos"
+    />
     <!-- Typo -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,500&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,500&display=swap"
+    />
     <!-- Icono pastaña web -->
-    <link rel="icon" href="https://res.cloudinary.com/dd68h7zlq/image/upload/v1663432617/Proyecto%20final%20Coder/EKAM_Logo_niy2fd.png"/>
+    <link
+      rel="icon"
+      href="https://res.cloudinary.com/dd68h7zlq/image/upload/v1663432617/Proyecto%20final%20Coder/EKAM_Logo_niy2fd.png"
+    />
     <title>Ekam | Contacto</title>
     <!-- CSS Bootstrap -->
     <link
@@ -67,19 +79,34 @@
           </div>
         </div>
       </nav>
-      <hr>
+      <hr />
       <nav class="navbar">
         <div class="container-fluid">
-           <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-           </form>
-           <div class="loginCarrito">
-              <a href="./productos.html"><img src="https://res.cloudinary.com/dd68h7zlq/image/upload/v1664135512/Proyecto%20final%20Coder/icons8-carrito-de-compras-100_geldiu.png"
-                alt="carrito" height="30px" class="iconos"/>
-              </a>
-              <a href="./contacto.html"><img src="https://res.cloudinary.com/dd68h7zlq/image/upload/v1664135512/Proyecto%20final%20Coder/icons8-usuario-de-g%C3%A9nero-neutro-100_lo8odv.png"
-                alt="registrate" height="30px" class="iconos"/>
-              </a>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+          <div class="loginCarrito">
+            <a href="./productos.html"
+              ><img
+                src="https://res.cloudinary.com/dd68h7zlq/image/upload/v1664135512/Proyecto%20final%20Coder/icons8-carrito-de-compras-100_geldiu.png"
+                alt="carrito"
+                height="30px"
+                class="iconos"
+              />
+            </a>
+            <a href="./contacto.html"
+              ><img
+                src="https://res.cloudinary.com/dd68h7zlq/image/upload/v1664135512/Proyecto%20final%20Coder/icons8-usuario-de-g%C3%A9nero-neutro-100_lo8odv.png"
+                alt="registrate"
+                height="30px"
+                class="iconos"
+              />
+            </a>
           </div>
         </div>
       </nav>
@@ -87,53 +114,63 @@
 
     <!-- main -->
     <main>
-      <h1 hidden>contacto</h1>
-      <h5 class="contacto">Podes enviarnos tu consulta aquí</h5>
-      <div class="containerContacto">
-        <form action="GET" class="contacto">
-          <div class="form-floating">
-            <input
-              type="name"
-              class="form-control"
-              id="floatingInput"
-              placeholder="Nombre y apellido"
-            />
-            <label for="floatingInput">Nombre y Apellido</label>
+      <div class="contacto">
+        <h1 hidden>contacto</h1>
+        <h5 class="contacto">Podes enviarnos tu consulta aquí</h5>
+        <div class="containerContacto">
+          <form action="GET" class="contacto">
+            <div class="form-floating">
+              <input
+                type="name"
+                class="form-control"
+                id="floatingInput"
+                placeholder="Nombre y apellido"
+              />
+              <label for="floatingInput">Nombre y Apellido</label>
+            </div>
+            <div class="form-floating">
+              <input
+                type="Email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="Email"
+              />
+              <label for="floatingInput">Email</label>
+            </div>
+            <div class="form-floating">
+              <input
+                type="place"
+                class="form-control"
+                id="floatingInput"
+                placeholder="Localidad"
+              />
+              <label for="floatingInput">Localidad</label>
+            </div>
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea2"
+                style="height: 100px"
+              ></textarea>
+              <label for="floatingTextarea2">Consulta</label>
+            </div>
+            <a href="./contacto.html" class="btn contacto">Enviar</a>
+          </form>
+        </div>
+        <div class="containerMap">
+          <h6 class="showroom">Punto de entrega</h6>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2946131588337!2d-58.419394749752335!3d-34.59671096453728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca87f656b16b%3A0x4fe79086456c44af!2sBulnes%201300%2C%20C1188%20CABA!5e0!3m2!1ses-419!2sar!4v1664160800678!5m2!1ses-419!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-          <div class="form-floating">
-            <input
-              type="Email"
-              class="form-control"
-              id="floatingInput"
-              placeholder="Email"
-            />
-            <label for="floatingInput">Email</label>
-          </div>
-          <div class="form-floating">
-            <input
-              type="place"
-              class="form-control"
-              id="floatingInput"
-              placeholder="Localidad"
-            />
-            <label for="floatingInput">Localidad</label>
-          </div>
-          <div class="form-floating">
-            <textarea
-              class="form-control"
-              placeholder="Leave a comment here"
-              id="floatingTextarea2"
-              style="height: 100px"
-            ></textarea>
-            <label for="floatingTextarea2">Consulta</label>
-          </div>
-           <a href="./contacto.html" class="btn contacto">Enviar</a>
-        </form>
-      </div>
-      <div class="containerMap">
-        <h6 class="showroom">Punto de entrega</h6>
-        <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2946131588337!2d-58.419394749752335!3d-34.59671096453728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca87f656b16b%3A0x4fe79086456c44af!2sBulnes%201300%2C%20C1188%20CABA!5e0!3m2!1ses-419!2sar!4v1664160800678!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </main>
@@ -161,25 +198,37 @@
                 href="https://www.instagram.com/ekam.oleosyaromas/"
                 target="_blank"
                 class="fa fa-instagram"
-                ><img src="https://res.cloudinary.com/dd68h7zlq/image/upload/v1664135512/Proyecto%20final%20Coder/icons8-instagram-100_a3oon4.png" alt="instagram" height="30px">Instagram</a
+                ><img
+                  src="https://res.cloudinary.com/dd68h7zlq/image/upload/v1664135512/Proyecto%20final%20Coder/icons8-instagram-100_a3oon4.png"
+                  alt="instagram"
+                  height="30px"
+                />Instagram</a
               >
               <a
                 href="https://mailto:elerom2009@gmail.com/"
                 target="_blank"
                 class="fa fa-gmail"
-                ><img src="https://res.cloudinary.com/dd68h7zlq/image/upload/v1664135513/Proyecto%20final%20Coder/icons8-gmail-100_prlj9f.png" alt="email" height="30px">Email</a
+                ><img
+                  src="https://res.cloudinary.com/dd68h7zlq/image/upload/v1664135513/Proyecto%20final%20Coder/icons8-gmail-100_prlj9f.png"
+                  alt="email"
+                  height="30px"
+                />Email</a
               >
               <a
                 href="https://wa.me/+54 9 11 5617-9535"
                 target="_blank"
                 class="fa fa-whatsapp"
-                ><img src="https://res.cloudinary.com/dd68h7zlq/image/upload/v1664135512/Proyecto%20final%20Coder/icons8-whatsapp-100_rndmjx.png" alt="whatsapp" height="30px">+54 9 11 5617-9535</a
+                ><img
+                  src="https://res.cloudinary.com/dd68h7zlq/image/upload/v1664135512/Proyecto%20final%20Coder/icons8-whatsapp-100_rndmjx.png"
+                  alt="whatsapp"
+                  height="30px"
+                />+54 9 11 5617-9535</a
               >
             </li>
           </ul>
         </section>
       </div>
-      <hr>
+      <hr />
       <div class="copy">
         <p>
           Ekam, óleos y Aromas &copy; - 2022. Todos los derechos reservados.

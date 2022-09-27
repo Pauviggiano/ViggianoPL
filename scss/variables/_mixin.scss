@@ -1,9 +1,10 @@
 // mixin
 
 @mixin main {
-    min-height: 100vh;
+    min-height: 90vh;
     margin-bottom: 15px;
 }
+
 
 @mixin carousel {
     height: 350px;
