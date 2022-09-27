@@ -1,0 +1,64 @@
+img.logo {
+    width: 100px;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+}
+  
+.header {
+    background-color: $colorFooteryHeader;
+}
+  
+a.nav-link {
+    color: black;
+  
+    &:hover {
+      color: $colorhover;
+      transform: scale(1.1);
+    }
+}
+  
+ul.navbar-nav.d-flex {
+    justify-content: end;
+    margin: 0;
+}
+  
+div.loginCarrito {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3px;
+  
+    a {
+       padding: 5px;
+  
+        &:hover {
+         transform: scale(1.1);
+         color: $colorhover;
+        }
+    }
+}
+  
+nav.navbar {
+    background-color: $colorFooteryHeader;
+    display: flex;
+    justify-items: flex-end;
+    padding: 1px;
+}
+  
+form.d-flex {
+    margin: 8px;
+    height: 30px;
+}
+  
+div.container-fluid {
+    padding: 0;
+}
+  
+// linea que separa el header del main y del footer
+  
+hr{
+      margin: 0;
+  
+}

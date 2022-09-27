@@ -1,0 +1,81 @@
+.mainIndex {
+  min-height: 90vh;
+  margin-bottom: 15px;
+}
+
+//banner main-index
+
+.cardIndex {
+  --bs-card-spacer-y: 0rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: 0;
+  --bs-card-border-color: none;
+  --bs-card-border-radius: 0;
+  --bs-card-inner-border-radius: none;
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border: none;
+  border-radius: 0;
+}
+
+.card-img {
+  z-index: 0.7;
+  filter: opacity(0.6);
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+h1.card-title,
+h2.card-text {
+  font-family: $font-family-banner;
+  font-weight: 700px;
+  text-align: center;
+}
+
+//parrafo main index
+
+section.containerP {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-items: center;
+  
+    p {
+      max-width: 700px;
+      text-align: center;
+      font-family: $font-family;
+    }
+}
+  //termina parrafo main index
+
+  //carousel
+
+div.carousel-inner {
+    @include carousel;
+}
+  
+.carousel {
+    @include carousel;
+}
+  
+div.containerCarousel {
+    display: flex;
+    justify-content: center;
+}

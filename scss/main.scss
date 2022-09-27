@@ -1,0 +1,96 @@
+//colores
+//purple: #9F84BD 
+//lila: #C09BD8
+//rosa viejo: #EBC3DB
+//lavanda: #EDE3E9
+//eggshell: #E6E4CE
+
+//Tipografia
+//Wrap
+//@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Montserrat:ital,wght@0,500;1,300&display=swap');
+//rules: font-family: 'Dancing Script', cursive;
+/*main
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,500&display=swap');
+rules: font-family: 'Open Sans', sans-serif;
+*/
+
+
+
+
+
+//variables
+@import './variables/variables';
+
+//mixin
+@import './variables/mixin';
+
+
+// secciones
+@import './sections/main-index';
+@import './sections/header';
+@import './sections/footer';
+@import './sections/productos';
+@import './sections/accesorios';
+@import './sections/contacto';
+
+
+
+//reseteo general
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0 auto;
+    min-height: 100vh;
+    color: #212121;
+    justify-content: center;
+    width: 850px;
+    background-color: $colorbg;
+} 
+
+main{
+   @include main();
+}
+
+
+
+//media querys
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse{
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    }
+}
+
+@media (max-width: 767px){
+    div.container.row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 700px;
+    }
+    div.card{
+        width: 256px;
+        height: 478px;
+    }
+
+    div.containerAccesorios.d-flex.row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 700px;
+        margin: 10px 0 10px 0;
+    }
+}

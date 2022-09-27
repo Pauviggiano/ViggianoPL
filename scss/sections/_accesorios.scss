@@ -1,0 +1,42 @@
+// accesorios
+.d-flex{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.tituloBio{
+    font-family:$font-family;
+    text-align: center;
+    margin: 20px;
+}
+
+div.containerBio p{
+    font-family: $font-family;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+main.containerBio{
+    min-height: 90vh;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+h5.tituloAccesorios{
+   @include titulo;
+}
+
+div.container p{
+    font-family: $font-family;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+

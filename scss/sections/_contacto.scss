@@ -1,0 +1,59 @@
+// contacto
+main.contacto{
+    min-height: 1000px;
+    
+}
+
+h5.contacto{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+form.contacto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    border-style: groove;
+    border-color: $colorhover;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-color: $colorform;
+}
+
+
+.form-floating{  
+    max-width: 400px;
+    padding: 10px;
+}
+
+a.btn.contacto{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 200px;
+    border-style: groove;
+    border: $colorhover solid;
+}
+
+.containerContacto{
+    display: flex;
+    justify-content: center;
+}
+
+div.map{
+    display: flex;
+    justify-content: center;
+}
+
+h6.showroom{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    margin-top: 30px;
+    height: 300px;
+    margin-bottom: 30px;
+}

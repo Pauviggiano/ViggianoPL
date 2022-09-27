@@ -1,0 +1,32 @@
+//Productos main
+
+h5.tiuloProductos{
+    @include titulo;
+}
+
+
+div.card{
+    font-family: $font-family-banner;
+    font-size: 14px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 3px;
+    margin: 5px;   
+}
+
+a.btn{
+    background-color: $colorFooteryHeader;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+div.container.row{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
