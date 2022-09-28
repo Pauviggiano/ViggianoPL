@@ -64,13 +64,13 @@ section.containerP p {
 }
 
 div.carousel-inner {
-  height: 350px;
-  width: 350px;
+  height: 550px;
+  width: 550px;
 }
 
 .carousel {
-  height: 350px;
-  width: 350px;
+  height: 550px;
+  width: 550px;
 }
 
 div.containerCarousel {
@@ -134,6 +134,10 @@ div.container-fluid {
 
 hr {
   margin: 0;
+}
+
+footer {
+  margin-top: 0 auto;
 }
 
 .footer {
@@ -331,13 +335,17 @@ iframe {
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  position: relative;
+  position: center;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 100%;
   color: #212121;
   justify-content: center;
-  width: 800px;
+  width: 700px;
   background-color: #EDE3E9;
 }
 
@@ -347,42 +355,12 @@ body {
     flex-basis: auto;
     flex-wrap: wrap;
     justify-content: flex-end;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
   }
 }
-@media (max-width: 767px) {
-  div.container.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 900px;
-  }
-  div.card {
-    width: 256px;
-    height: 478px;
-  }
-  div.containerAccesorios.d-flex.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 700px;
-    margin: 10px 0 10px 0;
-  }
-  main.mainIndex, main.contacto {
-    min-height: 90vh;
-  }
-}
-@media (max-width: 400px) {
-  main.mainIndex, main.contacto {
-    min-height: 90vh;
-    max-width: 320px;
-    margin: 0 auto;
-  }
-  body {
-    min-height: 100vh;
-    margin: 0 auto;
+@media (max-width: 370px) {
+  footer {
+    margin-top: 0 auto;
   }
 }/*# sourceMappingURL=main.css.map */
