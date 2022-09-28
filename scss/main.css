@@ -359,7 +359,17 @@ body {
     padding: 0;
   }
 }
-@media (max-width: 370px) {
+@media (max-width: 400px) {
+  main.mainIndex, main.contacto {
+    min-height: 90vh;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  body {
+    min-height: 100vh;
+    width: 0 auto;
+    margin: 0 auto;
+  }
   footer {
     margin-top: 0 auto;
   }
